@@ -3,11 +3,15 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.*;
 
-
+//below should not be added in comments
+//public class TestEmployeeDetail {
+	
 //Package is for test cases
 import com.sonata.businessmodel.EmpBusinessLogic;
 import com.sonata.devops.EmployeeDetails;
-//import.
+
+//import package;
+
 public class TestEmployeeDetail {
 
 	   EmpBusinessLogic empBusinessLogic =new EmpBusinessLogic();
