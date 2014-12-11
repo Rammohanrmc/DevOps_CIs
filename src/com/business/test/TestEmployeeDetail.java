@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.*;
 
 
-
+//Package is for test cases
 import com.sonata.businessmodel.EmpBusinessLogic;
 import com.sonata.devops.EmployeeDetails;
 
