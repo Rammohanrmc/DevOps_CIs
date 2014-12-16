@@ -23,10 +23,5 @@ public class EmpBusinessLogic {
 	      }
 	      return appraisal; 
 	   }
-	   
-	  for (i = 0; i < 10; j++) {  // Noncompliant
-           // ...
-          }
-	   
-	   
+	
 }
