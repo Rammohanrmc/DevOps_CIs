@@ -25,7 +25,7 @@ public class TestEmployeeDetail {
 	 //test to check appraisal
 	   @Test
 	   public void testCalculateAppriasal() {
-	      employee.setName("Rajeev");
+	      employee.setName("Ram");
 	      employee.setAge(25);
 	      employee.setMonthlySalary(8000);
 	      double appraisal= empBusinessLogic.calculateAppraisal(employee);
@@ -35,7 +35,7 @@ public class TestEmployeeDetail {
 	   // test to check yearly salary
 	   @Test
 	   public void testCalculateYearlySalary() {
-	      employee.setName("Rajeev");
+	      employee.setName("Ram");
 	      employee.setAge(25);
 	      employee.setMonthlySalary(8000);
 	      double salary= empBusinessLogic.calculateYearlySalary(employee);
