@@ -5,7 +5,7 @@ import java.lang.Math.*;
 public class EmpBusinessLogic {
 	
 	
-	
+	int age = 96;
 	// Calculate the yearly salary of employee
 	   public double calculateYearlySalary(EmployeeDetails employeDetails){
 	      double yearlySalary=0;
