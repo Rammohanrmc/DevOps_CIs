@@ -23,7 +23,7 @@ public class EmpBusinessLogic {
 	      }
 	      return appraisal; 
 	   }
-      //IfStatement/Statement
+      /*//IfStatement/Statement
     void bar(int x) {
      if (x == 0) {
      // empty!
@@ -32,6 +32,6 @@ public class EmpBusinessLogic {
     
     // Added to test Custom rules
     if(age>95)
-    ClassLoader cl = Bar.class.getClassLoader();
+    ClassLoader cl = Bar.class.getClassLoader();*/
 
 }
