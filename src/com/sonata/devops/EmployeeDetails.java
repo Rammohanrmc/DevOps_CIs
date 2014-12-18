@@ -44,8 +44,8 @@ public class EmployeeDetails {
 		   public void setAge(int age) {
 		   this.age = age;
 		   }
-		  /*if(age>65){
+		  if(age >= 65){
 		   System.out.println("Not Elgible to Hike life Cycle");
-		  }*/ 
+		  }
 		   
 	}
