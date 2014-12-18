@@ -23,5 +23,7 @@ public class EmpBusinessLogic {
 	      }
 	      return appraisal; 
 	   }
-	
+    // Added to test Custom rules
+    ClassLoader cl = Bar.class.getClassLoader();
+
 }
