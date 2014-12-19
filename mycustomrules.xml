@@ -10,7 +10,7 @@
               <description>
               Avoid using 'while' statements without using curly braces
               </description>
-                <priority>1</priority>
+                <priority>3</priority>
 
               <example>
         <![CDATA[
