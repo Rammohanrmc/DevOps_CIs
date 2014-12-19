@@ -44,6 +44,11 @@ public class EmployeeDetails {
 		   public void setAge(int age) {
 		   this.age = age;
 		   }
-		  if(age >= 65){}
+		   
+		   void calculate() {
+		   	while(age >= 45)
+                        buz.doSomething();
+                   }
+		  //  if(age >= 65){}
 		   
 	}
