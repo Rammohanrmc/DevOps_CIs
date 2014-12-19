@@ -49,6 +49,6 @@ public class EmployeeDetails {
 		   	while(age >= 45)
                         buz.doSomething();
                    }
-		  //  if(age >= 65){}
+		  if(age >= 65)
 		   
 	}
