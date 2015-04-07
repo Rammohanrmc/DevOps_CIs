@@ -513,11 +513,13 @@
     </executions>
 </plugin>	 
 			
-	
+
+    
           	<plugin>
 			<groupId>org.jacoco</groupId>
 			<artifactId>jacoco-maven-plugin</artifactId>
-			<version>${jacoco.version}</version>
+			<version>1.0.19</version>
+			<packaging>hpi</packaging>
 			<executions>
 				<execution>
 					<goals>
@@ -534,7 +536,21 @@
 			</executions>
 		</plugin>
 	
-	
+<reporting>
+    <plugins>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>cobertura-maven-plugin</artifactId>
+            <version>2.6</version>
+            <configuration>
+                <formats>
+                    <format>html</format>
+                    <format>xml</format>
+                </formats>
+            </configuration>
+        </plugin>
+    </plugins>
+</reporting>
 			
 			
 		</plugins>
