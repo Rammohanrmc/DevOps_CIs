@@ -519,7 +519,7 @@
 			<groupId>org.jacoco</groupId>
 			<artifactId>jacoco-maven-plugin</artifactId>
 			<version>1.0.19</version>
-			<packaging>hpi</packaging>
+			
 			<executions>
 				<execution>
 					<goals>
