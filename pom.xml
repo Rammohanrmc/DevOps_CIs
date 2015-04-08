@@ -4,7 +4,7 @@
 	<groupId>org.springframework.samples</groupId>
 	<artifactId>spring-petclinic</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-
+<pluginManagement>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -47,6 +47,6 @@
                 </formats>
             </configuration>
         </plugin>
-        
+   </pluginManagement>     
 </plugins>
 </project>
