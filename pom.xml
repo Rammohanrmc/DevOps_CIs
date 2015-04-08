@@ -4,6 +4,7 @@
 	<groupId>org.springframework.samples</groupId>
 	<artifactId>spring-petclinic</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
+<build>
 <pluginManagement>
 		<plugins>
 			<plugin>
@@ -47,6 +48,7 @@
                 </formats>
             </configuration>
         </plugin>
-   </pluginManagement>     
-</plugins>
+   </plugins>
+   </pluginManagement> 
+   </build>
 </project>
