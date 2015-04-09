@@ -27,15 +27,7 @@
         <version>2.4.3</version>
       </dependency>
     </dependencies>
-    
-   <configuration>
-      <systemProperties>
-         <property>
-            <name>cobertura.use.java.nio</name>
-            <value>false</value>
-         </property>
-      </systemProperties>
-   </configuration>
+   
     
   </plugin>
 		
