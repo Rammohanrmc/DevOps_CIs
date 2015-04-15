@@ -36,6 +36,7 @@
 			      <dependency>
 			        <groupId>org.apache.maven.surefire</groupId>
 			        <artifactId>surefire-junit47</artifactId>
+			        <argLine>-server -ea -XX:MaxPermSize=256m -Xmx4g -XX:-UseSplitVerifier ${argLine}</argLine>
 			        <version>2.18.1</version>
 			      </dependency>
 		          </dependencies>
