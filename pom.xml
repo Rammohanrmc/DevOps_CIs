@@ -26,6 +26,7 @@
 			    <artifactId>maven-surefire-plugin</artifactId>
 			    <version>2.18.1</version>
 			    <configuration>
+			    <argLine>$-server -ea -XX:MaxPermSize=256m -Xmx4g -XX:-UseSplitVerifier ${argLine}</argLine>
 				<!-- Skips unit tests if the value of skip.unit.tests property is true -->
 				<skipTests>${skip.unit.tests}</skipTests>
 				<!-- Excludes integration tests when unit tests are run -->
@@ -54,18 +55,7 @@
 	             </execution> 
 	             </executions>
                  </plugin>
-                  
-                  	
-                  <plugin>  
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-surefire-plugin</artifactId>
-                        <version>2.18.1</version>
-		        <configuration>
-		                  <argLine>-server -ea -XX:MaxPermSize=256m -Xmx4g -XX:-UseSplitVerifier ${argLine}
-		                  </argLine>
-		         <configuration>
-		        
-              </plugin>
+                 
               
           </plugins>
         </build>
