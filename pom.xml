@@ -415,7 +415,30 @@
                  </plugin>
 
 		
-		
+		<plugin>
+      <artifactId>maven-failsafe-plugin</artifactId>
+      <version>2.14.1</version>
+      <dependencies>
+        <dependency>
+          <groupId>org.apache.maven.surefire</groupId>
+          <artifactId>surefire-junit47</artifactId>
+          <version>2.14.1</version>
+        </dependency>
+      </dependencies>
+      <configuration>
+        <argLine>${jacoco.agent.argLine}</argLine>
+        <testFailureIgnore>true</testFailureIgnore>
+        <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+      </configuration>
+      <executions>
+        <execution>
+          <goals>
+            <goal>integration-test</goal>
+            <goal>verify</goal>
+          </goals>
+        </execution>
+      </executions>
+    </plugin
 		
 		
 			<plugin>
