@@ -64,14 +64,7 @@
 	             </executions>
                  </plugin>
                     
-                <plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-failsafe-plugin</artifactId>
-			<configuration>
-			<reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
-			<argLine>${jacoco.agent.argLine}</argLine>
-			</configuration>
-                </plugin> 
+             
               
           </plugins>
         </build>
