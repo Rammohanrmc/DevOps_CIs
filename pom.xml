@@ -1,18 +1,3 @@
-
-
-spring-petclinic/pom.xml
-@Rammohanrmc Rammohanrmc 2 minutes ago Update pom.xml
-
-4 contributors
-@Rammohanrmc
-@tduchateau
-@gordonad
-@cyrille-leclerc
-75 lines (55 sloc) 1.954 kb
-
-
-
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>CustomerTracker</groupId>
@@ -72,10 +57,6 @@ spring-petclinic/pom.xml
                                 </includes>
                         </configuration>
                 </plugin>
-		
-			
-			
-			
 			
 		</plugins>
 	</build>
