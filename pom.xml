@@ -3,7 +3,7 @@
   <groupId>CustomerTracker</groupId>
   <artifactId>CustomerTracker</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>ear</packaging>
 
    <dependencies>
        <dependency>
