@@ -15,16 +15,16 @@
 	</dependencies>
             
         <build>
-		<testResources>
-			  <testResource>
+		<!--<testResources>
+			  <testResource>-->
 			  	<!-- declared explicitly so Spring config files can be placed next to their corresponding JUnit test class 
 			  		(see example with ValidatorTests) -->
-			    <directory>${project.basedir}/src/test/java</directory>
+			    <!--<directory>${project.basedir}/src/test/java</directory>
 			  </testResource>
 			  <testResource>
 			    <directory>${project.basedir}/src/test/resources</directory>
 			  </testResource>
-		</testResources>
+		</testResources>-->
 		
 		<plugins>
 			<!--<plugin>
